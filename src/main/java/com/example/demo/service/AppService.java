@@ -34,4 +34,8 @@ public class AppService {
 		
 	}
 
+	public String getTempMsgData() {
+		return "hello, welcome to springboot azure app";
+	}
+
 }
