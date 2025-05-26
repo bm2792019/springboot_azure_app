@@ -11,6 +11,7 @@ import com.example.demo.jpa.model.Tutorial;
 import com.example.demo.jpa.model.TutorialRepository;
 import com.example.demo.service.AppService;
 
+@CrossOrigin(origins = "http://localhost:9091")
 @RestController
 public class AppController {
 	
@@ -18,11 +19,17 @@ public class AppController {
 	AppService appService;
 
 	//test test api
-	@CrossOrigin(origins = "http://localhost:9091")
 	@GetMapping("/msg")
 	public List<Tutorial> getMsg() {
 
 		return appService.getMsgData();
+			
+	}
+
+	@GetMapping("/tempmsg")
+	public String getTempMsgData() {
+
+		return appService.getTempMsgData();
 			
 	}
 
