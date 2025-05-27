@@ -11,7 +11,9 @@ import com.example.demo.jpa.model.Tutorial;
 import com.example.demo.jpa.model.TutorialRepository;
 import com.example.demo.service.AppService;
 
-@CrossOrigin(origins = "http://localhost:9091")
+//https://springazureapp-b0ahdwa0h6drh3d7.canadacentral-01.azurewebsites.net/
+//@CrossOrigin(origins = "http://localhost:9091")
+@CrossOrigin(origins = "https://springazureapp-b0ahdwa0h6drh3d7.canadacentral-01.azurewebsites.net")
 @RestController
 public class AppController {
 	
