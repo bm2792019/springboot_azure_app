@@ -13,7 +13,7 @@ import com.example.demo.service.AppService;
 
 //https://springazureapp-b0ahdwa0h6drh3d7.canadacentral-01.azurewebsites.net/
 //@CrossOrigin(origins = "http://localhost:9091")
-@CrossOrigin(origins = {"https://azurewebapp2-bqexgqcwckhrbzc0.centralus-01.azurewebsites.net"})
+@CrossOrigin(origins = {"https://springuiazure-dhbdhdcscpakeja6.italynorth-01.azurewebsites.net"})
 @RestController
 public class AppController {
 	
